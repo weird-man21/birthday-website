@@ -1,0 +1,100 @@
+body {
+    text-align: center;
+    background: linear-gradient( #7191ae, grey);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#avatar {
+    width: 150px;
+    border-radius: 50%;
+    border:  solid grey;
+}
+
+#bday-age {
+    background: grey;
+    padding: 3px 9px;
+    border-radius: 5px;
+    margin: 15px 0 10px 0;
+
+}
+
+#bday-date {
+    background: grey;
+    padding: 3px 9px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border: 5px solid white;
+    border-radius: 10px;
+    background: url(images/gift-cover.jpg);
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background: url(images/happy.gif);
+}
+
+#gift-img-hot:hover {
+    background: url(images/hot.webp);
+    background-size: cover;
+    
+}
+
+#gift-img-genius:hover {
+    background: url(images/genius.gif);
+    background-size: cover;
+   
+}
+
+#gift-img-badass:hover {
+    background: url(images/badass.gif);
+    height: 400px;
+    background-size: cover;
+    
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-cheers:hover {
+    background: url(images/cheers.webp);
+    height: 200px
+    
+}
+
+#footer {
+    width: 400px;
+    margin: 40px auto 20px;
+    font-style: italic;
+}
+
+a {
+    color: white;
+}
